@@ -1,6 +1,7 @@
 (set-env!
   :dependencies  '[[adzerk/bootlaces    "0.1.12" :scope "test"]
-                   [org.clojure/clojure "1.7.0"]]
+                   [org.clojure/clojure "1.7.0"]
+                   [hoplon/javelin      "3.8.2"]]
   :source-paths   #{"src"})
 
 (require '[adzerk.bootlaces :refer :all])
